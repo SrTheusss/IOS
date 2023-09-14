@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+ol {
+    font-weight: bold;
+    color: blue
+   }
+   .roxo_texto {
+    color: purple
+   }
+   .rosa_texto {
+    color: pink
+   }
+   .amarelo_texto {
+    color: yellow
+   }
+   .vermelho_texto {
+    color: red
+   }
+
+   footer {
+    background-color: rgb(255, 255, 255);
+    color: black;
+   }

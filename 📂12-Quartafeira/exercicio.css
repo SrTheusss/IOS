@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    font-size: 25px;
+}
+
+p{
+    font-size: 1,5em;
+    margin-bottom: 20px;
+    text-indent: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(9, 9, 32);
+}
+
+h1{
+    font-size: 80px;
+    text-shadow: 5px -5px 4px rgb(11, 6, 87);
+    background-color: rgb(9, 9, 32);
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 60px;
+}
+
+body {
+    background-color: rgb(21, 3, 43);
+    color: white;
+}
+

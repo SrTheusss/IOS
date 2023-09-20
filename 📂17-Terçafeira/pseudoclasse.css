@@ -1,0 +1,7 @@
+input:focus {
+    background-color: green;
+}
+
+header::selection:hover {
+    background-color: red;
+}

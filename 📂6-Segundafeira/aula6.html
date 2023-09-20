@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms de html</title>
+</head>
+<body>
+    <h2>Elemento form</h2>
+    <form action="#">
+        <label for="cName">Nome: </label>
+        <input type="text" id="cName">
+        <br><br>
+
+        <label for="cSobrenome">Sobrenome: </label>
+        <input type="text" id="cSobrenome">
+        <br><br>
+
+        <label for="eml">Email: </label>
+        <input type="email" id="eml" required >
+        <br><br>
+
+        <label for="cCPF">CPF: </label>
+        <input type="text" id="cCPF">
+        <br><br>
+
+        <label for="Senha">Senha:  </label>
+        <input type="text" id="Senha">
+        <br><br>
+
+        <label for="cNúmero">Número: </label>
+        <input type="text" id="cNúmero">
+        <br><br>
+
+        <p>Cursos do IOS</p>
+        <input type="radio" name="curso" id="op1">
+        <label for="op1">Suporte T.I: </label>
+        <br><br> 
+
+        <input type="radio" name="curso" id="op2">
+        <label for="op2">Gestão - ERP: </label>
+        <br><br>
+
+        <input type="radio" name="curso" id="op3">
+        <label for="op3">Dev. WEB: </label>
+        <br><br>
+
+        <p> Meio de transporte</p>
+        <input type="checkbox" name="transp1" id="transp1" value="tp1">
+        <label for="transp1">Ônibus</label>
+        <br><br>
+
+        <input type="checkbox" name="transp2" id="transp2" value="tp2">
+        <label for="transp2">Metrô</label>
+        <br><br> 
+
+        <input type="checkbox" name="transp3" id="transp3" value="tp3">
+        <label for="transp3">Bicicleta</label>
+        <br><br>
+
+        <input type="checkbox" name="transp4" id="transp4" value="tp4">
+        <label for="transp4">Andando</label>
+        <br><br>
+
+        <input type="checkbox" name="transp5" id="transp5" value="tp5">
+        <label for="transp5">Uber</label>
+        <br><br>
+
+        <label for="time">Selecione seu time</label>
+        <select name="time" id="time">
+        <option value="cruzeiro">Cruzeiro</option>
+        <option value="vasco">Vasco</option>
+        <option value="santos">Santos</option>
+        <option value="botafogo">Botafogo</option>
+        <option value="flamengo">Flamengo</option>
+        <option value="fluminense">Fluminense</option>
+        </select>
+        <br><br>
+
+        <label for="cCid">Escolha o seu Estado</label>
+        <input autocomplete="on" list="estado" type="text" name="tCid" id="cCid" placeholder="Seu Estado">
+        <datalist id="estado">
+            <option value="São Paulo"></option>
+            <option value="Ceará"></option>
+            <option value="Rio de Janeiro"></option>
+            <option value="Bahia"></option>
+            <option value="Minas Gerais"></option>
+        </datalist>
+        <br><br>
+
+        <hr>
+
+        <p> Utilizando Range</p>
+        0
+        <input type="range" name="valor_01" id="valor_01">
+        100 <br>
+
+<hr>
+
+        <p> Sugestões, elogios e críticas:</p>
+         
+        <textarea name="message" cols="50" rows="10" placeholder="Deixe aqui a sua mensagem!" required></textarea>
+        <br><br>
+</form>
+<form method="post" action="mailto:matheus60199@gmail.com">
+        <fieldset>
+        <legend> Identificação</legend>
+        <label for="Cnome">Nome</label> <br>
+        <input type="text" size="50" name="tNome" id="Cnome" required="required">
+        <br><br>
+
+        <p> Você mora:</p>
+        <input type="radio" name="tipo" id="cid" value="C" />
+        <label for="cid">Cidade</label><br>
+        <input type="radio" name="tipo" id="inter" value="I" />
+        <label for="inter">Interior</label><br>
+    </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <form action="matheus60199@gmail.com" method="post">
+        <fieldset>
+            <legend>Identificação</legend>
+            <label for="cName">Nome</label>
+            <input type="text" name="cName" id="cName"> <br><br>
+
+            <label for="cNome">Sobrenome</label>
+            <input type="text" name="cNome" id="cNome"> <br><br>
+
+            <label for="cEmail">Email</label>
+            <input type="text" name="cEmail" id="cEmail"> <br><br>
+
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

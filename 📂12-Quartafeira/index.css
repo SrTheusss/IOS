@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header header header"
+    "main main main main section section"
+    "main main main main section section"
+    "main main main main section section"
+    "aside aside ul ul ul ul"
+    "footer footer footer footer footer"
+    ;
+}
+
+#cx1 {
+    background-color: blue;
+    grid-area: header;
+}
+
+#cx2 {
+    background-color: blue;
+}
+
+#cx3 {
+    background-color: blue;
+}
+
+#cx4 {
+    background-color: blue;
+}
+
+#cx5 {
+    background-color: blue;
+}
+
+#cx6 {
+    background-color: blue;
+}

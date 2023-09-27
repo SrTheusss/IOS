@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.container{
+    display: grid;
+    background-color: blue;
+    border: 1px solid;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.box{
+    border: solid rebeccapurple 1px;
+}
